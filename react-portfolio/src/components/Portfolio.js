@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project'; // Import the Project component
 
 function Portfolio() {
   return (
@@ -7,17 +8,16 @@ function Portfolio() {
         <h2>My Work</h2>
       </div>
       <div className="right-section">
-        {/* Your project components go here */}
-        {/* Example: */}
         <div className="top-images">
-          <h1 className="project-header">JAKD Movie App</h1>
-          <a href="https://akemp24.github.io/Movie-app/">
-            <img src="./images/Movie_app_landing_page.png" alt="JAKD Movie App" />
-          </a>
+          <Project
+            title="JAKD Movie App"
+            imageSrc="./images/Movie_app_landing_page.png"
+            deployedLink="https://akemp24.github.io/Movie-app/"
+            githubLink="https://github.com/Akemp24"
+          />
         </div>
+        {/* Add more Project components for other projects */}
       </div>
     </section>
   );
 }
-
-export default Portfolio;
