@@ -24,6 +24,8 @@
   }
   .nav-link:hover {
     color: #777;
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-in-out;
   }
   
   .nav-item.active .nav-link {

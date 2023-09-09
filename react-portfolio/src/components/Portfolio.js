@@ -18,7 +18,7 @@ function Portfolio() {
           title="JAKD Movie App"
           imageSrc={Jakd}
           deployedLink="https://akemp24.github.io/Movie-app/"
-          githubLink="https://github.com/Akemp24"
+          githubLink="https://github.com/Akemp24/Movie-app"
           className="project-image"
         />
         {/* Add more Project components for other projects */}
@@ -57,10 +57,6 @@ function Portfolio() {
           githubLink="https://github.com/Akemp24/Timed-quiz"
           className="project-image"
         />
-      </div>
-      <div className="github-link">
-        <h2>Visit my GitHub profile</h2>
-        <a href="https://github.com/Akemp24" target="_blank" rel="noopener noreferrer"className='project-link'>GitHub Profile</a>
       </div>
     </section>
   );
