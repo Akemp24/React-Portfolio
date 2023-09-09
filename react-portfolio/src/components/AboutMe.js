@@ -19,3 +19,5 @@ function AboutMe() {
       </section>
     );
   }
+
+  export default AboutMe;
