@@ -1,7 +1,27 @@
 /* styling for footer similar to header */
-.footer {
+.footer-content {
     background: linear-gradient(45deg, #ff6b6b, #ffa07a, #f0e68c); /* Gradient background */
     text-align: center; /* Center-align text */
     padding: 20px; /* Add padding for spacing */
     color: #fff; /* Text color */
   }
+
+  .icon-container {
+    display: inline-block;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-right: 10px; /* Add spacing between icons if needed */
+    /* Add any additional custom styles you need */
+  }
+
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10PX;
+    font-size: 18px;
+    transition: color 0.3 ease;
+  }
+
+  .footer-link:hover {
+    color: rgb(232, 232, 121)
+  }
+  
