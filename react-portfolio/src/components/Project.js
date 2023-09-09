@@ -4,7 +4,7 @@ import "../styles/Project.css";
 
 function Project ({ title, imageSrc, deployedLink, githubLink}) {
     return (
-        <div className='project'>
+        <div className='project-container'>
             <h1 className='project-header'>{title}</h1>
             <a href={deployedLink} target='_blank' rel='noopener noreferrer' className='project-link'>
                 <img src={imageSrc} alt={title}j className='project-image'/>

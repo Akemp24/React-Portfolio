@@ -10,7 +10,7 @@
     margin-right: 20px;
     text-decoration: none;
     color: #fff !important;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: color 0.3s ease;
   }
   
@@ -18,7 +18,7 @@
     margin-right: 20px;
     text-decoration: none;
     color: rgb(241, 108, 60) !important;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: color 0.3s ease;
     font-weight: bold;
   }

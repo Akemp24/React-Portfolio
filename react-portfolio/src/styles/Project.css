@@ -10,3 +10,14 @@
     text-decoration: none;
     color: peachpuff;
   }
+
+  .project-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    /* adjust width so that only 3 projects in row */
+    width: calc(33.33% - 10px);
+  }

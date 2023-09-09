@@ -32,6 +32,27 @@ function Portfolio() {
           // githubLink="https://github.com/your-username/project3"
           className="project-image"
         />
+        <Project
+          title="TBD"
+          imageSrc={Placeholder}
+          // deployedLink="https://your-deployed-link.com/project3"
+          // githubLink="https://github.com/your-username/project3"
+          className="project-image"
+        />
+        <Project
+          title="TBD"
+          imageSrc={Placeholder}
+          // deployedLink="https://your-deployed-link.com/project3"
+          // githubLink="https://github.com/your-username/project3"
+          className="project-image"
+        />
+        <Project
+          title="TBD"
+          imageSrc={Placeholder}
+          // deployedLink="https://your-deployed-link.com/project3"
+          // githubLink="https://github.com/your-username/project3"
+          className="project-image"
+        />
       </div>
       <div className="github-link">
         <h2>Visit my GitHub profile</h2>
