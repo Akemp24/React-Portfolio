@@ -1,0 +1,12 @@
+/* styling for the project.js file */
+.project-image {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+.project-link {
+    text-decoration: none;
+    color: peachpuff;
+  }

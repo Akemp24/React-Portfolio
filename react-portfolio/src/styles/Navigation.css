@@ -1,0 +1,19 @@
+/* Navigation styles */
+.navbar {
+    background-color:#ffa07a;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #777;
+}
