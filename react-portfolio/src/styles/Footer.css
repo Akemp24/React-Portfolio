@@ -1,0 +1,7 @@
+/* styling for footer similar to header */
+.footer {
+    background: linear-gradient(45deg, #ff6b6b, #ffa07a, #f0e68c); /* Gradient background */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding for spacing */
+    color: #fff; /* Text color */
+  }

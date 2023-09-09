@@ -1,14 +1,33 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import "../styles/Navigation.css";
 
 function Navigation() {
+  // Get the current location
+  const location = useLocation(); 
+
   return (
     <nav className="navbar">
-      <Link to="/" className="nav-link">About Me</Link>
-      <Link to="/portfolio" className="nav-link">Portfolio</Link>
-      <Link to="/contact" className="nav-link">Contact Info</Link>
-      {/* <Link to="/resume" className="nav-link">Resume</Link> */}
+      <div className="nav-link">
+        <Link to="/" className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
+          About Me
+        </Link>
+      </div>
+      <div className="nav-link">
+        <Link to="/portfolio" className={`nav-item ${location.pathname === '/portfolio' ? 'active' : ''}`}>
+          Portfolio
+        </Link>
+      </div>
+      <div className="nav-link">
+        <Link to="/contact" className={`nav-item ${location.pathname === '/contact' ? 'active' : ''}`}>
+          Contact Info
+        </Link>
+      </div>
+      <div className="nav-link">
+        <Link to="/resume" className={`nav-item ${location.pathname === '/resume' ? 'active' : ''}`}>
+          Resume
+        </Link>
+      </div>
     </nav>
   );
 }

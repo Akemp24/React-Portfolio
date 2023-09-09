@@ -1,19 +1,32 @@
 /* Navigation styles */
 .navbar {
-    background-color:#ffa07a;
+    background-color: #ffa07a;
     display: flex;
     justify-content: center;
     /* margin-top: 20px; */
-}
-
-.nav-link {
+  }
+  
+  .nav-item {
     margin-right: 20px;
     text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
+    color: #fff !important;
+    font-size: 2rem;
     transition: color 0.3s ease;
-}
-
-.nav-link:hover {
+  }
+  
+  .nav-item.active {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(241, 108, 60) !important;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  .nav-link:hover {
     color: #777;
-}
+  }
+  
+  .nav-item.active .nav-link {
+    color: #ff9900;
+    font-weight: bold;
+  }
