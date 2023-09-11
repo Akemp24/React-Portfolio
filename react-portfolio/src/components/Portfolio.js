@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 import "../styles/Portfolio.css";
 import Jakd from "../assets/images/Movie_app_landing_page.png";
-import Venue from "../assets/images/travel-xp.png";
+import Venue from "../assets/images/venues.png";
 // import Placeholder from "../assets/images/github screenshot.png";
 import Horiseon from "../assets/images/Horiseon-Challenge-Screenshot.png";
 import PWGen from "../assets/images/pw-generator.png";

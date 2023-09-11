@@ -46,3 +46,10 @@
   .submit-button:hover {
     background-color: #eddf5f; /* Button background color on hover */
   }
+
+  /* Contact disclaimer styles */
+.disclaimer-text {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}

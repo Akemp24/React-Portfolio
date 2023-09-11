@@ -77,6 +77,9 @@ function Contact() {
         <button type="submit" className="submit-button">
           Submit
         </button>
+        <p className="disclaimer-text">
+          Please note that this contact form is currently for demonstration purposes only. Comments sent through this form will not be delivered to an email address. Actual functionality will be added soon.
+       </p>
       </form>
     </div>
   );

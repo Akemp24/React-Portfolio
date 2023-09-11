@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Navigation />
         <Routes>
-          <Route path='/' element={<AboutMe />} />
+          <Route path='*' element={<AboutMe />} />
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/resume' element={<Resume />} />
