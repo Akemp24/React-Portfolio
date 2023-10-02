@@ -7,7 +7,7 @@ import Venue from "../assets/images/venues.png";
 import Horiseon from "../assets/images/Horiseon-Challenge-Screenshot.png";
 import PWGen from "../assets/images/pw-generator.png";
 import Wdp from "../assets/images/Workday Planner.png";
-import Quiz from "../assets/images/akemp24.github.io_Timed-quiz_.png";
+import FF from "../assets/images/fitness-flavors.png";
 
 function Portfolio() {
   return (
@@ -52,9 +52,9 @@ function Portfolio() {
         />
         <Project
           title="Timed Quiz"
-          imageSrc={Quiz}
-          deployedLink="https://akemp24.github.io/Timed-quiz/"
-          githubLink="https://github.com/Akemp24/Timed-quiz"
+          imageSrc={FF}
+          deployedLink="https://fitness-flavors-6c56562cb291.herokuapp.com/"
+          githubLink="https://github.com/4FunkE/Fitness-Flavors"
           className="project-image"
         />
       </div>
