@@ -51,7 +51,7 @@ function Portfolio() {
           className="project-image"
         />
         <Project
-          title="Timed Quiz"
+          title="Fitness Flavors"
           imageSrc={FF}
           deployedLink="https://fitness-flavors-6c56562cb291.herokuapp.com/"
           githubLink="https://github.com/4FunkE/Fitness-Flavors"
